@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="css/CSS.css" />
+        <title>Siam</title>
+    </head>
+
+    <body>
+        <button id="reInit" onclick="init(true)">Réinitialiser</button>
+        <button id="annuler" onclick="cancelSelect(true)" disabled>Désélectionner</button>
+        <button id="tourneEtRetourne" onclick="tourneEtRetourne()" class="bouton1" disabled>Demi-tour</button>
+        <button id="tourneEtRetourneUnPeuAGauche" onclick="tourneEtRetourneUnPeuAGauche()" class="bouton2" disabled>Quart de tour à gauche</button>
+        <button id="tourneEtRetourneUnPeuADroite" onclick="tourneEtRetourneUnPeuADroite()" class="bouton3" disabled>Quart de tour à droite</button>
+        <button id="passeTour" onclick="passeTour()" class="bouton4" disabled>Passer le tour</button>
+        <div id="plateau"></div>
+    </body>
+
+    <script src="js/JS.js"></script>
+</html>
